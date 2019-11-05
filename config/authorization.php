@@ -4,7 +4,7 @@
     include_once "database.php";
     if(!isset($_POST))
     {
-        echo "Access denied";
+        echo "Access Error";
         exit();
     }
     $user_name=$_POST['user_name'];

@@ -27,14 +27,14 @@ $(document).ready(function() {
             dataType:'json',
             success:function(result){
                 if(!result){
-                    document.location.href="./login.html"
+                    document.location.href="./index.html"
                 }
                 else{
                     $("#section_login").css("display","block")
                 }
             },
             error:function(error){
-                document.location.href="./login.html"
+                document.location.href="./index.html"
             }
         })
     }
@@ -88,7 +88,7 @@ $(document).ready(function() {
             dataType:'json',
             success:function(result){
                 if(result){
-                    document.location.href="./login.html"
+                    document.location.href="./index.html"
                 }
             },
             error:function(error){

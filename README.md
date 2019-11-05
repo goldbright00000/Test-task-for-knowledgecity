@@ -8,7 +8,7 @@ Setting  in database.php.
     $db_name = "auth_test_db";
 
     Task Login info:
-        url: http://localhost/user.html
+        url: http://localhost/index.html
         username: alex
         password:12345
 
